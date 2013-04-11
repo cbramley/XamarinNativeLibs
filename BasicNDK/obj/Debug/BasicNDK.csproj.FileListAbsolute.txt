@@ -1,0 +1,13 @@
+C:\Users\cbramley\Documents\Visual Studio 2012\Projects\AndroidApplication1\BasicNDK\bin\Debug\BasicNDK.dll
+C:\Users\cbramley\Documents\Visual Studio 2012\Projects\AndroidApplication1\BasicNDK\bin\Debug\BasicNDK.pdb
+C:\Users\cbramley\Documents\Visual Studio 2012\Projects\AndroidApplication1\BasicNDK\bin\Debug\BasicNDK.dll.mdb
+C:\Users\cbramley\Documents\Visual Studio 2012\Projects\AndroidApplication1\BasicNDK\bin\Debug\BasicNDK.BasicNDK.apk
+C:\Users\cbramley\Documents\Visual Studio 2012\Projects\AndroidApplication1\BasicNDK\bin\Debug\BasicNDK.BasicNDK-Signed.apk
+C:\Users\cbramley\Documents\Visual Studio 2012\Projects\AndroidApplication1\BasicNDK\obj\Debug\BasicNDK.dll
+C:\Users\cbramley\Documents\Visual Studio 2012\Projects\AndroidApplication1\BasicNDK\obj\Debug\BasicNDK.pdb
+C:\Users\cbramley\Documents\Visual Studio 2012\Projects\AndroidApplication1\BasicNDK\obj\Debug\android\bin\BasicNDK.BasicNDK.apk
+C:\Users\cbramley\Documents\Visual Studio 2012\Projects\AndroidApplication1\BasicNDK\obj\Debug\res\layout\main.xml
+C:\Users\cbramley\Documents\Visual Studio 2012\Projects\AndroidApplication1\BasicNDK\obj\Debug\res\values\strings.xml
+C:\Users\cbramley\Documents\Visual Studio 2012\Projects\AndroidApplication1\BasicNDK\obj\Debug\res\drawable\icon.png
+C:\Users\cbramley\Documents\Visual Studio 2012\Projects\AndroidApplication1\BasicNDK\obj\Debug\R.cs.flag
+C:\Users\cbramley\Documents\Visual Studio 2012\Projects\AndroidApplication1\BasicNDK\obj\Debug\uploadflags.txt

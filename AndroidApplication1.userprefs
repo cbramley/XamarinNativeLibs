@@ -1,0 +1,37 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="BasicNDK\MainActivity.cs">
+    <Files>
+      <File FileName="BasicNDK\MainActivity.cs" Line="32" Column="65" />
+      <File FileName="AndroidApplication1\Activity1.cs" Line="10" Column="1" />
+      <File FileName="BasicNDK\jni\Android.mk" Line="5" Column="29" />
+      <File FileName="BasicNDK\jni\native.c" Line="7" Column="95" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="AndroidApplication1" expanded="True">
+            <Node name="jni" expanded="True" />
+            <Node name="libs" expanded="True">
+              <Node name="armeabi" expanded="True" />
+            </Node>
+          </Node>
+          <Node name="BasicNDK" expanded="True" selected="True">
+            <Node name="jni" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.BasicNDK AndroidDeviceId-Debug="015d24a7f8540011" />
+</Properties>
