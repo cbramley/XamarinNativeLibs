@@ -19,3 +19,8 @@ JNIEXPORT void JNICALL LogNdkNewTag(JNIEnv * env, jobject this, jstring logThis)
     __android_log_print(ANDROID_LOG_DEBUG, DEBUG_TAG, "NDK:LC: [%s]", szLogThis);
     (*env)->ReleaseStringUTFChars(env, logThis, szLogThis);
 }
+
+void LogNdkDefaultMessage(JNIEnv * env, jobject this)
+{
+   __android_log_print(ANDROID_LOG_DEBUG, DEBUG_TAG, "Very basic console logging");
+}

@@ -26,6 +26,12 @@ namespace BasicNDK
         [DllImport ("ndksample")]
         static extern void LogNdkNewTag ( string w );
 
+        [DllImport ("ndksample")]
+        static extern void LogNdkDefaultMessage ( IntPtr jnienv, IntPtr thiz );
+        
+        [DllImport ("ndksample")]
+        static extern void LogNdkDefaultMessage ();
+
         protected override void OnCreate ( Bundle bundle )
         {
             base.OnCreate ( bundle );
@@ -35,13 +41,23 @@ namespace BasicNDK
             button.Click += delegate
             {
                 // launch our NDK code
+
                 try
                 {
-                    LogNdk(IntPtr.Zero, IntPtr.Zero, "Message to log");
+                    LogNdkDefaultMessage( JNIEnv.Handle, JNIEnv.Handle);
                 }
                 catch (Exception e)
                 {
                     Android.Util.Log.Warn("Main",e.ToString());
+                }
+                
+                try
+                {
+                    LogNdkDefaultMessage();
+                }
+                catch (Exception e)
+                {
+                    Android.Util.Log.Warn("MainShort",e.ToString());
                 }
 
                 try
@@ -51,6 +67,15 @@ namespace BasicNDK
                 catch (Exception e)
                 {
                     Android.Util.Log.Warn("MainShort",e.ToString());
+                }
+
+                try
+                {
+                    LogNdk( JNIEnv.Handle, JNIEnv.Handle, "Message to log");
+                }
+                catch (Exception e)
+                {
+                    Android.Util.Log.Warn("Main",e.ToString());
                 }
 
                 try

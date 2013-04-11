@@ -1,0 +1,1 @@
+-- NB -- This project assumes you have ndk-build on your PATH.
