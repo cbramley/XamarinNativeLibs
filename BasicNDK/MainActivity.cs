@@ -39,7 +39,7 @@ namespace BasicNDK
                 {
                     LogNdk(IntPtr.Zero, IntPtr.Zero, "Message to log");
                 }
-                catch (DllNotFoundException e)
+                catch (Exception e)
                 {
                     Android.Util.Log.Warn("Main",e.ToString());
                 }
@@ -48,7 +48,7 @@ namespace BasicNDK
                 {
                     LogNdk("Message to log");
                 }
-                catch (DllNotFoundException e)
+                catch (Exception e)
                 {
                     Android.Util.Log.Warn("MainShort",e.ToString());
                 }
@@ -57,7 +57,7 @@ namespace BasicNDK
                 {
                     LogNdkNewTag(IntPtr.Zero, IntPtr.Zero, "Message to log");
                 }
-                catch (DllNotFoundException e)
+                catch (Exception e)
                 {
                     Android.Util.Log.Warn("Main",e.ToString());
                 }
@@ -66,7 +66,7 @@ namespace BasicNDK
                 {
                     LogNdkNewTag("Message to log");
                 }
-                catch (DllNotFoundException e)
+                catch (Exception e)
                 {
                     Android.Util.Log.Warn("MainShort",e.ToString());
                 }               

@@ -4,8 +4,7 @@
 
 #define DEBUG_TAG "NDK_AndroidNDK1SampleActivity"
 
-void
-LogNdk(JNIEnv * env, jobject this, jstring logThis)
+void LogNdk(JNIEnv * env, jobject this, jstring logThis)
 {
     jboolean isCopy;
     const char * szLogThis = (*env)->GetStringUTFChars(env, logThis, &isCopy);
